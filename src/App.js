@@ -1,4 +1,3 @@
-import './App.css';
 import WeatherApp from './Components/WeatherApp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

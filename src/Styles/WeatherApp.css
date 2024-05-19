@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+  }
+#wapp .bgBack{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff!important;
+    width: 100vw;
+    height: 100vh;
+  }
+#wapp .Weather{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#wapp .Weather .Brand{
+  font-family: "Nunito Sans", sans-serif;
+  color: darkblue;
+  font-weight: 500;
+  font-size: 52px;
+}
+#wapp .ContentDiv{
+  background: rgb(189,241,255);
+  background: radial-gradient(circle, rgba(189,241,255,1) 0%, rgba(19,62,137,1) 100%);
+    width: 650px;
+    height: 450px;;
+    display: flex;
+   flex-direction:column;
+   align-items: center;
+   gap: 10px;
+   position: relative;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#wapp .ContentDiv .inputContainer{
+    position:relative;
+    top: 50px;
+
+}
+#wapp .ContentDiv .inputContainer > input{
+   width:280px;
+   padding: 8px;
+   border-radius: 20px;
+   border: none;
+
+}
+#wapp .ContentDiv .inputContainer .fasearch{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+}
+#wapp .ContentDiv .imgContainer > img{
+ width: 100%;
+  position: absolute;
+  max-width: 30%;
+  left: 100px;
+  top: 120px;
+  
+}
+#wapp .ContentDiv .InfoDiv{
+   position: absolute;
+   top: 165px;
+ right: 140px;
+}
+#wapp .ContentDiv .InfoDiv > h3{ 
+font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+#wapp .ContentDiv .InfoNextDiv{
+    gap:180px;
+    position: absolute;
+    top: 330px;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+#wapp .ContentDiv .InfoNextDiv .InfoContent > h5{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 200;
+  font-size: 19px;
+  display: flex;
+
+}
+#wapp .ContentDiv .InfoNextDiv .InfoContent > h5 > .Humidity{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+#wapp .ContentDiv .InfoNextDiv .InfoContent > h5 >span{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 200;
+  font-size: 19px;
+  display: flex;
+  gap:10px;
+}
